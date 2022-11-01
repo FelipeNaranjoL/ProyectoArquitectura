@@ -61,4 +61,4 @@ class Producto(models.Model):
 #     nombreUsuarioEmp = models.CharField(max_length=50)
 
 
-# aasd2
+# aasd
