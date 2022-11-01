@@ -1,0 +1,72 @@
+/* titulos general */
+h1{
+    text-align: center;
+}
+
+/* formularios general */
+form{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgb(34, 203, 241);
+    border-radius: 10px;
+}
+
+/* botones general */
+button{
+    background-color: rgb(39, 56, 152);
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* cuerpo - fondo de pantalla */
+body{
+    background-image: url("../img/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* contenedores general */
+.card{
+    background: linear-gradient(yellow, white)
+}
+
+.centrar1{
+    text-align: center;
+}
+
+.centrar1 .presentacion{
+    width: 850px;
+    height: 350px;
+}
+
+.centrar2{
+    text-align: center;
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 280px;
+}
+
+div.galeria .servicio{
+    width: 200px;
+    height: 100px;
+}
+
+div.galeria:hover{
+    border: 1px solid black;
+}
+
+div.pie{
+    text-align: center;
+    /* text-shadow: 2px 2px 5px purple; */
+    padding: 10px;
+}
