@@ -3,11 +3,19 @@ from django.contrib.auth.forms import UserCreationForm ,AuthenticationForm
 from django.contrib.auth.models import User
 from django.db import IntegrityError
 from django.contrib.auth import login, logout, authenticate
+from .forms import formularioProducto
 
 # Create your views here.
 
 def home(request):
     return render(request, 'home.html')
+
+def agregarProducto(request):
+    form = formularioProducto()
+    return render(request, 'agregarProducto.html',{
+        'form': form
+    })
+
 
 def registrarse(request):
     if request.method == 'GET': 

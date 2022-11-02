@@ -60,5 +60,3 @@ class Producto(models.Model):
 #     direccionEmpleado = models.EmailField(max_length=100)
 #     nombreUsuarioEmp = models.CharField(max_length=50)
 
-
-# aasd

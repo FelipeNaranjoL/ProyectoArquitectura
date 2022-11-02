@@ -28,4 +28,6 @@ urlpatterns = [
     path('cerrarSession/', views.cerrarSession, name= 'cerrarSession'),
     #iniciarSession
     path('iniciarSession/', views.iniciarSession, name= 'iniciarSession'),
+    #agregarProducto
+    path('agregarProducto/', views.agregarProducto, name='agregarProducto')
 ]

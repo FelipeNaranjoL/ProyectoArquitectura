@@ -26,8 +26,15 @@
                 <a class="nav-link" href="#">Link</a>
               </li> -->
               {% if user.is_authenticated %}
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Servicios</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Gestionar...
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/agregarProducto">Productos</a></li>
+                  <li><a class="dropdown-item" href="#">Proveedores</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/cerrarSession">Cerrar Session</a>
